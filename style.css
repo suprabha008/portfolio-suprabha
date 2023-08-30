@@ -12,6 +12,8 @@ html{
     padding-top: 47px;
     /* background: yellow; */
     height: 130px;
+    border: 2px solid black;
+    background: rgb(246, 246, 158);
     
      /* display: flex;
     flex-direction: row; */
