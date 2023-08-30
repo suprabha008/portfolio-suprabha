@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    padding-top: 47px;
+    /* background: yellow; */
+    height: 130px;
+    
+     /* display: flex;
+    flex-direction: row; */
+} 
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background: red; */
+    
+
+}
+
+.left-side{
+    /* margin-right: 100px; */
+    margin-left: 100px;
+}
+.logo-name{
+    color: rgba(0, 0, 0, 0.758);
+    font-size: 2rem;
+}
+
+.right-side{
+    margin-right: 10px;
+    
+}
+
+.nav-headings{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-headings li{
+    color: rgba(61, 61, 61, 0.872);
+    font-size: 1.6rem;
+    margin-right: 40px;
+}
+
+
+.profile-pic{
+    height: 400px;
+    /* width: 400px; */
+    border-radius: 200px;
+}
+
+
+.front-page{
+    height:600px ;
+    /* width:1600px ; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fp-left-container{
+    margin-left: 250px;
+    margin-right: 50px;
+
+}
+.fp-right-container{
+    height: 350px;
+    width: 400px;
+    margin-right: 350px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 40px;
+    gap: 15px;
+
+}
+.my-data{
+    margin-top: 20px;
+    width: 400px;
+}
+.my-data p{
+    text-align: center;
+    color: rgba(61, 61, 61, 0.872);
+    margin-bottom: 8px;
+
+    
+}
+.my-data h1{
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgba(0, 0, 0, 0.758);
+    margin-bottom: 8px;
+
+    
+}
+.my-data h3 {
+    text-align: center;
+    color: rgba(61, 61, 61, 0.872);
+    margin-bottom: 8px;
+
+    font-size: 1.5rem;
+    
+}
+
+.but{
+    font-size: 0.8rem;
+    height: 45px;
+    width: 110px;
+    margin-right: 10px;
+    border-radius: 30px;
+    font-weight: 700;
+}
+
+.contact-info{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    
+
+}
+.contact-info:hover{
+    background-color: rgb(56, 55, 55);
+    color: white;
+    border: none;
+    
+
+}
+
+.cv{
+    color: rgba(0, 0, 0, 0.758);
+    background:white;
+
+}
+
+.cv:hover{
+    background: rgb(0, 0, 0);
+    color:white;
+    cursor: pointer;
+}
+
+.some-links img{
+    width: 35px;
+    margin-right: 5px;
+}
